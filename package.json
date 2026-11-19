@@ -1,0 +1,28 @@
+{
+  "name": "graph-mem-archify",
+  "version": "1.0.0",
+  "description": "Unified AST Knowledge Graph (Graphify) + Persistent Agent Memory (Claude-Mem) + Interactive HTML Architecture Diagrams (Archify) — 65-85% token reduction.",
+  "type": "module",
+  "main": "./src/cli.mjs",
+  "bin": {
+    "graph-mem-archify": "./src/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/pipeline.test.mjs",
+    "index": "node src/cli.mjs ."
+  },
+  "keywords": [
+    "graphify",
+    "claude-mem",
+    "archify",
+    "ast",
+    "knowledge-graph",
+    "agent-skill",
+    "ponytail",
+    "architecture-diagram"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "schema": "graph-mem-archify/v1",
+  "generatedAt": "2026-11-19T11:08:07.290Z",
+  "root": "E:/Downloads_C/graph-mem-archify",
+  "stats": {
+    "totalFilesIndexed": 10,
+    "totalEdges": 24,
+    "resolvedLocalEdges": 7,
+    "totalRawBytes": 120036
+  },
+  "ponytailNavigation": {
+    "directive": "Use read_file with StartLine/EndLine around symbol.line instead of reading full files.",
+    "topHubs": [
+      {
+        "file": "docs/index.html",
+        "inDegree": 0,
+        "outDegree": 0,
+        "symbolCount": 21,
+        "lines": 510
+      },
+      {
+        "file": "src/indexer.mjs",
+        "inDegree": 2,
+        "outDegree": 3,
+        "symbolCount": 6,
+        "lines": 208
+      },
+      {
+        "file": "src/archify-diagram.mjs",
+        "inDegree": 2,
+        "outDegree": 3,
+        "symbolCount": 5,
+        "lines": 397
+      },
+      {
+        "file": "docs/demo.html",
+        "inDegree": 0,
+        "outDegree": 0,
+        "symbolCount": 11,
+        "lines": 325
+      },
+      {
+        "file": "src/memory-bridge.mjs",
+        "inDegree": 2,
+        "outDegree": 2,
+        "symbolCount": 2,
+        "lines": 95
+      },
+      {
+        "file": "SKILL.md",
+        "inDegree": 0,
+        "outDegree": 0,
+        "symbolCount": 6,
+        "lines": 38
+      },
+      {
+        "file": "README.md",
+        "inDegree": 0,
+        "outDegree": 0,
+        "symbolCount": 5,
+        "lines": 89
+      },
+      {
+        "file": "src/cli.mjs",
+        "inDegree": 1,
+        "outDegree": 5,
+        "symbolCount": 2,
+        "lines": 76
+      },
+      {
+        "file": ".graphify_memory.md",
+        "inDegree": 0,
+        "outDegree": 0,
+        "symbolCount": 4,
+        "lines": 35
+      },
+      {
+        "file": "tests/pipeline.test.mjs",
+        "inDegree": 0,
+        "outDegree": 11,
+        "symbolCount": 0,
+        "lines": 64
+      }
+    ]
+  },
+  "nodes": {
+    ".graphify_memory.md": {
+      "ext": ".md",
+      "lines": 35,
+      "bytes": 1712,
+      "sha8": "bda1b4d6",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "CODEBASE AST TOPOLOGY: graph-mem-archify",
+          "line": 1
+        },
+        {
+          "kind": "heading",
+          "name": "1. HIGH-CENTRALITY HUBS (PONYTAIL TARGETS)",
+          "line": 5
+        },
+        {
+          "kind": "heading",
+          "name": "2. KEY SYMBOLS & LINE POINTERS",
+          "line": 17
+        },
+        {
+          "kind": "heading",
+          "name": "3. NAVIGATION DIRECTIVE",
+          "line": 34
+        }
+      ]
+    },
+    "README.md": {
+      "ext": ".md",
+      "lines": 89,
+      "bytes": 4355,
+      "sha8": "02efd10e",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "Credits & Upstream Attribution",
+          "line": 34
+        },
+        {
+          "kind": "heading",
+          "name": "Architecture Pipeline",
+          "line": 46
+        },
+        {
+          "kind": "heading",
+          "name": "Quick Start",
+          "line": 61
+        },
+        {
+          "kind": "heading",
+          "name": "Index + compress to memory + generate interactive HTML diagr",
+          "line": 68
+        },
+        {
+          "kind": "heading",
+          "name": "Brand & SVG Assets",
+          "line": 82
+        }
+      ]
+    },
+    "SKILL.md": {
+      "ext": ".md",
+      "lines": 38,
+      "bytes": 2137,
+      "sha8": "8f376846",
+      "symbols": [
+        {
+          "kind": "heading",
+          "name": "Graph-Mem-Archify (`/graph-mem-archify`)",
+          "line": 6
+        },
+        {
+          "kind": "heading",
+          "name": "Why Combine All Three?",
+          "line": 13
+        },
+        {
+          "kind": "heading",
+          "name": "Pipeline Order (Strict)",
+          "line": 19
+        },
+        {
+          "kind": "heading",
+          "name": "Quick Execution",
+          "line": 25
+        },
+        {
+          "kind": "heading",
+          "name": "Or directly from source:",
+          "line": 29
+        },
+        {
+          "kind": "heading",
+          "name": "Agent Navigation Rule (PonyTail Slicing)",
+          "line": 33
+        }
+      ]
+    },
+    "tests/pipeline.test.mjs": {
+      "ext": ".mjs",
+      "lines": 64,
+      "bytes": 2567,
+      "sha8": "ee96a593",
+      "symbols": []
+    },
+    "src/archify-diagram.mjs": {
+      "ext": ".mjs",
+      "lines": 397,
+      "bytes": 14477,
+      "sha8": "477f078a",
+      "symbols": [
+        {
+          "kind": "fn",
+          "name": "escapeHtml",
+          "line": 8
+        },
+        {
+          "kind": "fn",
+          "name": "classifyLayer",
+          "line": 16
+        },
+        {
+          "kind": "fn",
+          "name": "generateArchifyHtml",
+          "line": 33
+        },
+        {
+          "kind": "fn",
+          "name": "renderGraph",
+          "line": 268
+        },
+        {
+          "kind": "fn",
+          "name": "onNodeClick",
+          "line": 335
+        }
+      ]
+    },
+    "src/cli.mjs": {
+      "ext": ".mjs",
+      "lines": 76,
+      "bytes": 2773,
+      "sha8": "6bf521b9",
+      "symbols": [
+        {
+          "kind": "fn",
+          "name": "parseCliArgs",
+          "line": 8
+        },
+        {
+          "kind": "fn",
+          "name": "runPipeline",
+          "line": 37
+        }
+      ]
+    },
+    "src/indexer.mjs": {
+      "ext": ".mjs",
+      "lines": 208,
+      "bytes": 7819,
+      "sha8": "7ba4213a",
+      "symbols": [
+        {
+          "kind": "export",
+          "name": "IGNORED_DIRS",
+          "line": 5
+        },
+        {
+          "kind": "export",
+          "name": "SUPPORTED_EXTS",
+          "line": 11
+        },
+        {
+          "kind": "fn",
+          "name": "extractSymbolsAndImports",
+          "line": 19
+        },
+        {
+          "kind": "fn",
+          "name": "walkDirectory",
+          "line": 85
+        },
+        {
+          "kind": "fn",
+          "name": "resolveLocalImport",
+          "line": 113
+        },
+        {
+          "kind": "fn",
+          "name": "buildGraph",
+          "line": 127
+        }
+      ]
+    },
+    "src/memory-bridge.mjs": {
+      "ext": ".mjs",
+      "lines": 95,
+      "bytes": 3235,
+      "sha8": "da70022e",
+      "symbols": [
+        {
+          "kind": "fn",
+          "name": "distillGraphForMemory",
+          "line": 8
+        },
+        {
+          "kind": "fn",
+          "name": "persistToClaudeMem",
+          "line": 66
+        }
+      ]
+    },
+    "docs/demo.html": {
+      "ext": ".html",
+      "lines": 325,
+      "bytes": 59981,
+      "sha8": "4d8a7a1a",
+      "symbols": [
+        {
+          "kind": "dom-id",
+          "name": "#savingsPill",
+          "line": 140
+        },
+        {
+          "kind": "dom-id",
+          "name": "#lensInput",
+          "line": 143
+        },
+        {
+          "kind": "dom-id",
+          "name": "#pathBtn",
+          "line": 144
+        },
+        {
+          "kind": "dom-id",
+          "name": "#themeBtn",
+          "line": 145
+        },
+        {
+          "kind": "dom-id",
+          "name": "#canvasWrap",
+          "line": 149
+        },
+        {
+          "kind": "dom-id",
+          "name": "#graphSvg",
+          "line": 150
+        },
+        {
+          "kind": "dom-id",
+          "name": "#inspectorTitle",
+          "line": 155
+        },
+        {
+          "kind": "dom-id",
+          "name": "#inspectorMeta",
+          "line": 156
+        },
+        {
+          "kind": "dom-id",
+          "name": "#pathCard",
+          "line": 158
+        },
+        {
+          "kind": "dom-id",
+          "name": "#pathResult",
+          "line": 160
+        },
+        {
+          "kind": "dom-id",
+          "name": "#symbolList",
+          "line": 164
+        }
+      ]
+    },
+    "docs/index.html": {
+      "ext": ".html",
+      "lines": 510,
+      "bytes": 20980,
+      "sha8": "fbb8f80f",
+      "symbols": [
+        {
+          "kind": "dom-id",
+          "name": "#themeToggle",
+          "line": 281
+        },
+        {
+          "kind": "dom-id",
+          "name": "#heroLogo",
+          "line": 289
+        },
+        {
+          "kind": "dom-id",
+          "name": "#cliCmd",
+          "line": 300
+        },
+        {
+          "kind": "dom-id",
+          "name": "#copyBtn",
+          "line": 301
+        },
+        {
+          "kind": "dom-id",
+          "name": "#workbench",
+          "line": 305
+        },
+        {
+          "kind": "dom-id",
+          "name": "#traceBtn",
+          "line": 314
+        },
+        {
+          "kind": "dom-id",
+          "name": "#demoSvg",
+          "line": 321
+        },
+        {
+          "kind": "dom-id",
+          "name": "#edge-0-1",
+          "line": 322
+        },
+        {
+          "kind": "dom-id",
+          "name": "#edge-1-2",
+          "line": 323
+        },
+        {
+          "kind": "dom-id",
+          "name": "#edge-0-3",
+          "line": 324
+        },
+        {
+          "kind": "dom-id",
+          "name": "#edge-2-3",
+          "line": 325
+        },
+        {
+          "kind": "dom-id",
+          "name": "#indexer",
+          "line": 327
+        },
+        {
+          "kind": "dom-id",
+          "name": "#memory",
+          "line": 334
+        },
+        {
+          "kind": "dom-id",
+          "name": "#archify",
+          "line": 341
+        },
+        {
+          "kind": "dom-id",
+          "name": "#cli",
+          "line": 348
+        },
+        {
+          "kind": "dom-id",
+          "name": "#insName",
+          "line": 360
+        },
+        {
+          "kind": "dom-id",
+          "name": "#insDesc",
+          "line": 361
+        },
+        {
+          "kind": "dom-id",
+          "name": "#insSymbols",
+          "line": 367
+        },
+        {
+          "kind": "dom-id",
+          "name": "#credits",
+          "line": 373
+        },
+        {
+          "kind": "dom-id",
+          "name": "#footerEmblem",
+          "line": 413
+        },
+        {
+          "kind": "dom-id",
+          "name": "#footerLockup",
+          "line": 414
+        }
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "node:test"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "node:assert/strict"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "node:fs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "node:os"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "node:path"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "../src/indexer.mjs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "../src/memory-bridge.mjs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "../src/archify-diagram.mjs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "../src/cli.mjs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "./helper.mjs"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "./utils.mjs"
+    },
+    {
+      "from": "src/archify-diagram.mjs",
+      "to": "node:fs"
+    },
+    {
+      "from": "src/archify-diagram.mjs",
+      "to": "node:path"
+    },
+    {
+      "from": "src/archify-diagram.mjs",
+      "to": "node:url"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "node:fs"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "node:path"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "./indexer.mjs"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "./memory-bridge.mjs"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "./archify-diagram.mjs"
+    },
+    {
+      "from": "src/indexer.mjs",
+      "to": "node:fs"
+    },
+    {
+      "from": "src/indexer.mjs",
+      "to": "node:path"
+    },
+    {
+      "from": "src/indexer.mjs",
+      "to": "node:crypto"
+    },
+    {
+      "from": "src/memory-bridge.mjs",
+      "to": "node:fs"
+    },
+    {
+      "from": "src/memory-bridge.mjs",
+      "to": "node:path"
+    }
+  ],
+  "resolvedEdges": [
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "src/indexer.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "src/memory-bridge.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "src/archify-diagram.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "tests/pipeline.test.mjs",
+      "to": "src/cli.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "src/indexer.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "src/memory-bridge.mjs",
+      "kind": "import"
+    },
+    {
+      "from": "src/cli.mjs",
+      "to": "src/archify-diagram.mjs",
+      "kind": "import"
+    }
+  ]
+}
